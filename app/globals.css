@@ -81,7 +81,7 @@
   --sidebar-ring: oklch(0.708 0 0);
   --main: #4d8b7b;
   --main-light: #02aaa4;
-  --tertiary: #ce957e;
+  --tertiary: #e38560;
 }
 
 .dark {
@@ -118,7 +118,7 @@
   --sidebar-ring: oklch(0.556 0 0);
   --main: #4d8b7b;
   --main-light: #02aaa4;
-  --tertiary: #ce957e;
+  --tertiary: #e38560;
 }
 
 @layer base {

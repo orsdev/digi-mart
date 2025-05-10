@@ -3,6 +3,7 @@ import { Toaster } from "react-hot-toast";
 
 import "./globals.css";
 import { ROBOTO_CLASS } from "./font";
+import { Navbar, TopMarquee } from "./core/shared/components/atoms";
 
 export const metadata: Metadata = {
   title: "Digi Mart – Your One-Stop Shop for Fashion, Tech, and More!",
@@ -18,6 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${ROBOTO_CLASS} antialiased`}>
+        <TopMarquee />
+        <Navbar />
         {children}
         <Toaster
           toastOptions={{

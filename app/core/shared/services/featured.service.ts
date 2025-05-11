@@ -3,18 +3,26 @@ import { axiosInstance } from "../lib";
 import { IProduct } from "../types";
 
 export const getFeaturedProducts = async (): Promise<
-  AxiosResponse<IProduct[]>
+  AxiosResponse<IProduct[] | null>
 > => {
   try {
     return await axiosInstance.get("/featured");
   } catch (error) {
     if (axios.isAxiosError(error)) {
-      throw {
-        data: [] as IProduct[],
+      return {
+        data: null,
         status: error.response?.status || 500,
-        error: error.message,
+        statusText: error.response?.statusText || "Internal Server Error",
+        headers: error.response?.headers || {},
+        config: error.config || ({} as never),
       };
     }
-    throw error;
+    return {
+      data: null,
+      status: 500,
+      statusText: "Something went wrong",
+      headers: {},
+      config: {} as never,
+    };
   }
 };

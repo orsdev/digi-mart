@@ -46,7 +46,7 @@ export const HeroProductCard = ({
         </div>
       </div>
       <Link
-        href={`/products/${id}`}
+        href={`/shop/${id}`}
         className="absolute inset-0"
         aria-label={title}
       />

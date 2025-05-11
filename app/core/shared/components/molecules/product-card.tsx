@@ -27,7 +27,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
   const image = product.images?.[0];
 
   return (
-    <div className="group">
+    <div className="group relative">
       <div className="relative overflow-hidden flex items-center justify-center rounded-lg bg-[#F6F7FB] min-h-[270px] mb-4">
         <Image
           src={image}
@@ -55,7 +55,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
           <p className="text-sm">({Math.floor(product.rating)})</p>
         </div>
 
-        <h3 className="font-medium text-dark ease-out duration-200 hover:text-main">
+        <h3 className="font-medium text-dark ease-out duration-200 hover:text-main hover:underline">
           <Link href={`/shop/${product.id}`}> {product.title} </Link>
         </h3>
         <span className="flex items-center gap-2 font-medium text-lg">

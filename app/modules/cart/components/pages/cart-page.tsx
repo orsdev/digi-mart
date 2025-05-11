@@ -1,13 +1,17 @@
-import { Breadcrumb } from "@/app/core/shared/components/atoms";
 import { CartCard } from "../organisms";
+import {
+  CustomBreadcrumb,
+  Newsletter,
+} from "@/app/core/shared/components/molecules";
 
 export const CartPage = () => {
   return (
     <>
       <section>
-        <Breadcrumb title="Cart" pages={["Cart"]} />
+        <CustomBreadcrumb title="Cart" />
       </section>
       <CartCard />
+      <Newsletter />
     </>
   );
 };

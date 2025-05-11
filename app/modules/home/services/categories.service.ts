@@ -3,18 +3,26 @@ import axios, { AxiosResponse } from "axios";
 import { ICategories } from "../type/categories.type";
 
 export const getCategories = async (): Promise<
-  AxiosResponse<ICategories[]>
+  AxiosResponse<ICategories[] | null>
 > => {
   try {
     return await axiosInstance.get("/categories");
   } catch (error) {
     if (axios.isAxiosError(error)) {
-      throw {
+      return {
         data: null,
         status: error.response?.status || 500,
-        error: error.message,
+        statusText: error.response?.statusText || "Internal Server Error",
+        headers: error.response?.headers || {},
+        config: error.config || ({} as never),
       };
     }
-    throw error;
+    return {
+      data: null,
+      status: 500,
+      statusText: "Something went wrong",
+      headers: {},
+      config: {} as never,
+    };
   }
 };

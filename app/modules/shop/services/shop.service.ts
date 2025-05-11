@@ -1,12 +1,12 @@
+import { axiosInstance } from "@/app/core/shared/lib";
+import { IProduct } from "@/app/core/shared/types";
 import axios, { AxiosResponse } from "axios";
-import { axiosInstance } from "../lib";
-import { IProduct } from "../types";
 
-export const getNewArrivalProducts = async (): Promise<
-  AxiosResponse<IProduct[] | null>
-> => {
+export const getSingleProduct = async (
+  id: string,
+): Promise<AxiosResponse<IProduct | null>> => {
   try {
-    return await axiosInstance.get("/products/new-arrivals");
+    return await axiosInstance.get(`/products/${id}`);
   } catch (error) {
     if (axios.isAxiosError(error)) {
       return {

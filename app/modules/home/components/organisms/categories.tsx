@@ -1,5 +1,5 @@
 import { Tags } from "lucide-react";
-import { CategoriesCarousel } from "../atoms/categories-carousel";
+import { CategoriesCarousel } from "../molecules";
 import { getCategories } from "../../services";
 
 export const HomeCategories = async () => {

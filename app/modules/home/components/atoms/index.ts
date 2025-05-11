@@ -1,2 +1,2 @@
-export * from "./hero-product-card";
-export * from "./hero-carousel";
+export * from "./hero-skeleton";
+export * from "./categories-skeleton";

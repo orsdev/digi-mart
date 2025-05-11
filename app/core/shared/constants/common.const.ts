@@ -1,14 +1,14 @@
 export const NAV_MENU_DATA = [
   {
-    id: 1,
-    title: "Popular",
-    newTab: false,
-    path: "/popular",
-  },
-  {
-    id: 2,
+    id: "12345",
     title: "Shop",
     newTab: false,
     path: "/shop",
+  },
+  {
+    id: "1234",
+    title: "Contact",
+    newTab: false,
+    path: "#",
   },
 ];

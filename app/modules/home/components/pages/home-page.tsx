@@ -1,7 +1,7 @@
 import { Suspense } from "react";
-import { HeroSkeleton, HomeHero } from "../molecules";
-import { HomeCategories } from "../molecules";
-import { CategoriesSkeleton } from "../molecules/categories-skeleton";
+import { CategoriesSkeleton } from "../atoms";
+import { HomeCategories, HomeHero } from "../organisms";
+import { HeroSkeleton } from "../atoms";
 
 export const HomePage = async () => {
   return (

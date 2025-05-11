@@ -1,6 +1,6 @@
 import { axiosInstance } from "@/app/core/shared/lib";
+import { ICategories } from "@/app/modules/home/type/categories.type";
 import axios, { AxiosResponse } from "axios";
-import { ICategories } from "../type/categories.type";
 
 export const getCategories = async (): Promise<
   AxiosResponse<ICategories[] | null>

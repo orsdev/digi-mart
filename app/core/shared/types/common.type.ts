@@ -1,5 +1,3 @@
-import { Params } from "next/dist/server/request/params";
-
 export type FormatCurrencyOptions = {
   locale?: string;
   currency?: string;
@@ -9,7 +7,8 @@ export type FormatCurrencyOptions = {
 };
 
 export interface IQueryParams {
-  params: Params;
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+  params: Promise<any>;
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   searchParams: Promise<any>;
 }

@@ -1,7 +1,7 @@
 import { Tags } from "lucide-react";
 import { CategoriesCarousel } from "../molecules";
-import { getCategories } from "../../services";
 import { Skeleton } from "@/app/core/shared/components/atoms";
+import { getCategories } from "@/app/core/shared/services";
 
 export const HomeCategories = async () => {
   const categories = await getCategories();

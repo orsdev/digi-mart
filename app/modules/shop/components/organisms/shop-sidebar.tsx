@@ -1,6 +1,6 @@
 import { Skeleton } from "@/app/core/shared/components/atoms";
 import { ShopSidebarCategory } from "../molecules/shop-sidebar-category";
-import { getCategories } from "@/app/modules/home/services";
+import { getCategories } from "@/app/core/shared/services";
 
 export const ShopSidebar = async () => {
   const categories = await getCategories();

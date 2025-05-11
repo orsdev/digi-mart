@@ -7,16 +7,17 @@ import { IProduct } from "@/app/core/shared/types";
 
 export async function GET(
   _request: Request,
-  { params }: { params: { id: string } },
+  { params }: { params: Promise<{ id: string }> },
 ) {
   try {
+    const { id } = await params;
     const filePath = path.join(process.cwd(), "public", "products.json");
     const fileContents = await fs.readFile(filePath, "utf8");
     const parsedContent = JSON.parse(fileContents) as IProduct[];
 
     const products = parsedContent;
 
-    const product = products.find((p) => p.id === parseInt(params.id));
+    const product = products.find((p) => p.id === parseInt(id));
 
     if (!product) {
       return NextResponse.json(

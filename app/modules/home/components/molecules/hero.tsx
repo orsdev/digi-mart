@@ -1,5 +1,5 @@
 import { HeroCarousel, HeroProductCard } from "../atoms";
-import { getFeaturedProducts } from "@/app/core/shared/api";
+import { getFeaturedProducts } from "@/app/core/shared/services";
 
 export const HomeHero = async () => {
   const featuredProducts = await getFeaturedProducts();

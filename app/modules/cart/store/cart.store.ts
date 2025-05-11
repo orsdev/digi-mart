@@ -1,7 +1,7 @@
 import { IProduct } from "@/app/core/shared/types";
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
-import { ICart } from "../types/cart.type";
+import { ICart } from "../type/cart.type";
 import { ShoppingCart } from "../utils";
 
 interface CartState {

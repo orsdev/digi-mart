@@ -55,7 +55,7 @@ export const Navbar = () => {
               <div>
                 <span className="block text-xs uppercase">24/7 SUPPORT</span>
                 <p className="font-medium text-sm text-dark">
-                  <a href="tel:+234144436943">(+234) 144436943</a>
+                  <a href="tel:+234144436943">(+234) 1444-3694-3</a>
                 </p>
               </div>
             </div>

@@ -3,3 +3,4 @@ export * from "./top-marquee";
 export * from "./skeleton";
 export * from "./rating";
 export * from "./rating";
+export * from "./cart-sidebar-item";

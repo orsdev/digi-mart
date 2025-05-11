@@ -1,7 +1,8 @@
 import { Toaster } from "react-hot-toast";
 import { ROBOTO_CLASS } from "./font";
 import { TopMarquee } from "./core/shared/components/atoms";
-import { Footer, Navbar } from "./core/shared/components/molecules";
+import { Footer } from "./core/shared/components/molecules";
+import { Header } from "./core/shared/components/organisms";
 
 import "./globals.css";
 
@@ -14,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${ROBOTO_CLASS} antialiased`}>
         <TopMarquee />
-        <Navbar />
+        <Header />
         {children}
         <Footer />
         <Toaster

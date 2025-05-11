@@ -19,7 +19,7 @@ export const HomeCategories = async () => {
                 <Tags size={32} className="scale-[0.8] stroke-main" />
                 Categories
               </span>
-              <h2 className="font-semibold text-lg xl:text-xl text-dark">
+              <h2 className="font-semibold text-lg xl:text-2xl">
                 Browse by Category
               </h2>
             </div>

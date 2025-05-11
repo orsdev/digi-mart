@@ -5647,130 +5647,6 @@
     "thumbnail": "https://cdn.dummyjson.com/product-images/tops/blue-frock/thumbnail.webp"
   },
   {
-    "id": 163,
-    "title": "Girl Summer Dress",
-    "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
-    "category": "tops",
-    "price": 19.99,
-    "discountPercentage": 19.2,
-    "rating": 4.77,
-    "stock": 43,
-    "tags": [
-      "clothing",
-      "girls' dresses"
-    ],
-    "sku": "TOP-BRD-GIR-163",
-    "weight": 5,
-    "dimensions": {
-      "width": 26.19,
-      "height": 20.65,
-      "depth": 10.1
-    },
-    "warrantyInformation": "Lifetime warranty",
-    "shippingInformation": "Ships in 1 month",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent quality!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Mason Pearson",
-        "reviewerEmail": "mason.pearson@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Great product!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Aubrey Garcia",
-        "reviewerEmail": "aubrey.garcia@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Very satisfied!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Charlotte Davis",
-        "reviewerEmail": "charlotte.davis@x.dummyjson.com"
-      }
-    ],
-    "returnPolicy": "60 days return policy",
-    "minimumOrderQuantity": 46,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.054Z",
-      "updatedAt": "2025-04-30T09:41:02.054Z",
-      "barcode": "6273976484433",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/1.webp",
-      "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/2.webp",
-      "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/3.webp",
-      "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/4.webp"
-    ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/thumbnail.webp"
-  },
-  {
-    "id": 164,
-    "title": "Gray Dress",
-    "description": "The Gray Dress is a versatile and chic option for various occasions. With a neutral gray color, it can be dressed up or down, making it a wardrobe staple for any fashion-forward individual.",
-    "category": "tops",
-    "price": 34.99,
-    "discountPercentage": 14.28,
-    "rating": 2.72,
-    "stock": 55,
-    "tags": [
-      "clothing",
-      "dresses"
-    ],
-    "sku": "TOP-BRD-GRA-164",
-    "weight": 1,
-    "dimensions": {
-      "width": 11.91,
-      "height": 25.72,
-      "depth": 18.55
-    },
-    "warrantyInformation": "1 month warranty",
-    "shippingInformation": "Ships in 1 month",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Highly impressed!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Brayden Fleming",
-        "reviewerEmail": "brayden.fleming@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Awesome product!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Michael Johnson",
-        "reviewerEmail": "michael.johnson@x.dummyjson.com"
-      },
-      {
-        "rating": 5,
-        "comment": "Highly recommended!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Evelyn Sanchez",
-        "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
-      }
-    ],
-    "returnPolicy": "90 days return policy",
-    "minimumOrderQuantity": 13,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.054Z",
-      "updatedAt": "2025-04-30T09:41:02.054Z",
-      "barcode": "5201099489825",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://cdn.dummyjson.com/product-images/tops/gray-dress/1.webp",
-      "https://cdn.dummyjson.com/product-images/tops/gray-dress/2.webp",
-      "https://cdn.dummyjson.com/product-images/tops/gray-dress/3.webp",
-      "https://cdn.dummyjson.com/product-images/tops/gray-dress/4.webp"
-    ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/tops/gray-dress/thumbnail.webp"
-  },
-  {
     "id": 165,
     "title": "Short Frock",
     "description": "The Short Frock is a playful and trendy dress with a shorter length. Ideal for casual outings or special occasions, it combines style and comfort for a fashionable look.",
@@ -6220,194 +6096,6 @@
       "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/6.webp"
     ],
     "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/thumbnail.webp"
-  },
-  {
-    "id": 177,
-    "title": "Black Women's Gown",
-    "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
-    "category": "womens-dresses",
-    "price": 129.99,
-    "discountPercentage": 10.48,
-    "rating": 3.64,
-    "stock": 25,
-    "tags": [
-      "clothing",
-      "gowns"
-    ],
-    "sku": "WOM-BRD-BLA-177",
-    "weight": 2,
-    "dimensions": {
-      "width": 7.86,
-      "height": 9.02,
-      "depth": 25.82
-    },
-    "warrantyInformation": "Lifetime warranty",
-    "shippingInformation": "Ships in 1 week",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Great value for money!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Ethan Fletcher",
-        "reviewerEmail": "ethan.fletcher@x.dummyjson.com"
-      },
-      {
-        "rating": 3,
-        "comment": "Very dissatisfied!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Julian Newton",
-        "reviewerEmail": "julian.newton@x.dummyjson.com"
-      },
-      {
-        "rating": 5,
-        "comment": "Very satisfied!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Savannah Gomez",
-        "reviewerEmail": "savannah.gomez@x.dummyjson.com"
-      }
-    ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 5,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.054Z",
-      "updatedAt": "2025-04-30T09:41:02.054Z",
-      "barcode": "0630346013554",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/4.webp"
-    ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/thumbnail.webp"
-  },
-  {
-    "id": 178,
-    "title": "Corset Leather With Skirt",
-    "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
-    "category": "womens-dresses",
-    "price": 89.99,
-    "discountPercentage": 16.26,
-    "rating": 3.05,
-    "stock": 30,
-    "tags": [
-      "clothing",
-      "corsets",
-      "skirts"
-    ],
-    "sku": "WOM-BRD-COR-178",
-    "weight": 1,
-    "dimensions": {
-      "width": 6.01,
-      "height": 12.6,
-      "depth": 11.62
-    },
-    "warrantyInformation": "2 year warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Very happy with my purchase!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Natalie Price",
-        "reviewerEmail": "natalie.price@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Highly recommended!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Sophia Jones",
-        "reviewerEmail": "sophia.jones@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Highly recommended!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Leo Rivera",
-        "reviewerEmail": "leo.rivera@x.dummyjson.com"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 3,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.054Z",
-      "updatedAt": "2025-04-30T09:41:02.054Z",
-      "barcode": "2931500162745",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/4.webp"
-    ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/thumbnail.webp"
-  },
-  {
-    "id": 179,
-    "title": "Corset With Black Skirt",
-    "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
-    "category": "womens-dresses",
-    "price": 79.99,
-    "discountPercentage": 15.06,
-    "rating": 4.52,
-    "stock": 33,
-    "tags": [
-      "clothing",
-      "corsets",
-      "skirts"
-    ],
-    "sku": "WOM-BRD-COR-179",
-    "weight": 7,
-    "dimensions": {
-      "width": 17.56,
-      "height": 28.42,
-      "depth": 23.95
-    },
-    "warrantyInformation": "1 month warranty",
-    "shippingInformation": "Ships in 1 week",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Very satisfied!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Lucas Allen",
-        "reviewerEmail": "lucas.allen@x.dummyjson.com"
-      },
-      {
-        "rating": 2,
-        "comment": "Disappointing product!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Benjamin Wilson",
-        "reviewerEmail": "benjamin.wilson@x.dummyjson.com"
-      },
-      {
-        "rating": 5,
-        "comment": "Very happy with my purchase!",
-        "date": "2025-04-30T09:41:02.054Z",
-        "reviewerName": "Elena Long",
-        "reviewerEmail": "elena.long@x.dummyjson.com"
-      }
-    ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 5,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.054Z",
-      "updatedAt": "2025-04-30T09:41:02.054Z",
-      "barcode": "9336695899390",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/4.webp"
-    ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/thumbnail.webp"
   },
   {
     "id": 180,
@@ -7093,6 +6781,444 @@
     ],
     "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
   },
+    {
+    "id": 85,
+    "title": "Man Plaid Shirt",
+    "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+    "category": "mens-shirts",
+    "price": 34.99,
+    "discountPercentage": 19.5,
+    "rating": 3.46,
+    "stock": 82,
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "brand": "Classic Wear",
+    "sku": "MEN-CLA-PLA-085",
+    "weight": 3,
+    "dimensions": {
+      "width": 9.34,
+      "height": 5.97,
+      "depth": 10.85
+    },
+    "warrantyInformation": "1 week warranty",
+    "shippingInformation": "Ships in 1-2 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Disappointing product!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Aubrey Wagner",
+        "reviewerEmail": "aubrey.wagner@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Awesome product!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Evan Reed",
+        "reviewerEmail": "evan.reed@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Very disappointed!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Evelyn Gonzalez",
+        "reviewerEmail": "evelyn.gonzalez@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "7 days return policy",
+    "minimumOrderQuantity": 13,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.053Z",
+      "updatedAt": "2025-04-30T09:41:02.053Z",
+      "barcode": "2821496314023",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/thumbnail.webp"
+  },
+  {
+    "id": 86,
+    "title": "Man Short Sleeve Shirt",
+    "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
+    "category": "mens-shirts",
+    "price": 19.99,
+    "discountPercentage": 6.83,
+    "rating": 2.9,
+    "stock": 2,
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "brand": "Casual Comfort",
+    "sku": "MEN-CAS-SHO-086",
+    "weight": 2,
+    "dimensions": {
+      "width": 5.02,
+      "height": 16.57,
+      "depth": 9.6
+    },
+    "warrantyInformation": "3 year warranty",
+    "shippingInformation": "Ships in 2 weeks",
+    "availabilityStatus": "Low Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Charlotte Lopez",
+        "reviewerEmail": "charlotte.lopez@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Poor quality!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Ellie Stewart",
+        "reviewerEmail": "ellie.stewart@x.dummyjson.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Would not recommend!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Sadie Morales",
+        "reviewerEmail": "sadie.morales@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 4,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.053Z",
+      "updatedAt": "2025-04-30T09:41:02.053Z",
+      "barcode": "9995865660204",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/thumbnail.webp"
+  },
+    {
+    "id": 177,
+    "title": "Black Women's Gown",
+    "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
+    "category": "womens-dresses",
+    "price": 129.99,
+    "discountPercentage": 10.48,
+    "rating": 3.64,
+    "stock": 25,
+    "tags": [
+      "clothing",
+      "gowns"
+    ],
+    "sku": "WOM-BRD-BLA-177",
+    "weight": 2,
+    "dimensions": {
+      "width": 7.86,
+      "height": 9.02,
+      "depth": 25.82
+    },
+    "warrantyInformation": "Lifetime warranty",
+    "shippingInformation": "Ships in 1 week",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Great value for money!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Ethan Fletcher",
+        "reviewerEmail": "ethan.fletcher@x.dummyjson.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Very dissatisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Julian Newton",
+        "reviewerEmail": "julian.newton@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Savannah Gomez",
+        "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "0630346013554",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/3.webp",
+      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/thumbnail.webp"
+  },
+  {
+    "id": 178,
+    "title": "Corset Leather With Skirt",
+    "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
+    "category": "womens-dresses",
+    "price": 89.99,
+    "discountPercentage": 16.26,
+    "rating": 3.05,
+    "stock": 30,
+    "tags": [
+      "clothing",
+      "corsets",
+      "skirts"
+    ],
+    "sku": "WOM-BRD-COR-178",
+    "weight": 1,
+    "dimensions": {
+      "width": 6.01,
+      "height": 12.6,
+      "depth": 11.62
+    },
+    "warrantyInformation": "2 year warranty",
+    "shippingInformation": "Ships overnight",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Natalie Price",
+        "reviewerEmail": "natalie.price@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Sophia Jones",
+        "reviewerEmail": "sophia.jones@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Leo Rivera",
+        "reviewerEmail": "leo.rivera@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "2931500162745",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/thumbnail.webp"
+  },
+  {
+    "id": 179,
+    "title": "Corset With Black Skirt",
+    "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
+    "category": "womens-dresses",
+    "price": 79.99,
+    "discountPercentage": 15.06,
+    "rating": 4.52,
+    "stock": 33,
+    "tags": [
+      "clothing",
+      "corsets",
+      "skirts"
+    ],
+    "sku": "WOM-BRD-COR-179",
+    "weight": 7,
+    "dimensions": {
+      "width": 17.56,
+      "height": 28.42,
+      "depth": 23.95
+    },
+    "warrantyInformation": "1 month warranty",
+    "shippingInformation": "Ships in 1 week",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Lucas Allen",
+        "reviewerEmail": "lucas.allen@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Disappointing product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Benjamin Wilson",
+        "reviewerEmail": "benjamin.wilson@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Elena Long",
+        "reviewerEmail": "elena.long@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "9336695899390",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/thumbnail.webp"
+  },
+    {
+    "id": 163,
+    "title": "Girl Summer Dress",
+    "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
+    "category": "tops",
+    "price": 19.99,
+    "discountPercentage": 19.2,
+    "rating": 4.77,
+    "stock": 43,
+    "tags": [
+      "clothing",
+      "girls' dresses"
+    ],
+    "sku": "TOP-BRD-GIR-163",
+    "weight": 5,
+    "dimensions": {
+      "width": 26.19,
+      "height": 20.65,
+      "depth": 10.1
+    },
+    "warrantyInformation": "Lifetime warranty",
+    "shippingInformation": "Ships in 1 month",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Excellent quality!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Mason Pearson",
+        "reviewerEmail": "mason.pearson@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Great product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Aubrey Garcia",
+        "reviewerEmail": "aubrey.garcia@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Charlotte Davis",
+        "reviewerEmail": "charlotte.davis@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "60 days return policy",
+    "minimumOrderQuantity": 46,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "6273976484433",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/1.webp",
+      "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/2.webp",
+      "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/3.webp",
+      "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/thumbnail.webp"
+  },
+  {
+    "id": 164,
+    "title": "Gray Dress",
+    "description": "The Gray Dress is a versatile and chic option for various occasions. With a neutral gray color, it can be dressed up or down, making it a wardrobe staple for any fashion-forward individual.",
+    "category": "tops",
+    "price": 34.99,
+    "discountPercentage": 14.28,
+    "rating": 2.72,
+    "stock": 55,
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "sku": "TOP-BRD-GRA-164",
+    "weight": 1,
+    "dimensions": {
+      "width": 11.91,
+      "height": 25.72,
+      "depth": 18.55
+    },
+    "warrantyInformation": "1 month warranty",
+    "shippingInformation": "Ships in 1 month",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Brayden Fleming",
+        "reviewerEmail": "brayden.fleming@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Awesome product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Michael Johnson",
+        "reviewerEmail": "michael.johnson@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Evelyn Sanchez",
+        "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "90 days return policy",
+    "minimumOrderQuantity": 13,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "5201099489825",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/tops/gray-dress/1.webp",
+      "https://cdn.dummyjson.com/product-images/tops/gray-dress/2.webp",
+      "https://cdn.dummyjson.com/product-images/tops/gray-dress/3.webp",
+      "https://cdn.dummyjson.com/product-images/tops/gray-dress/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/tops/gray-dress/thumbnail.webp"
+  },
   {
     "id": 191,
     "title": "Rolex Cellini Moonphase",
@@ -7341,5 +7467,129 @@
       "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/3.webp"
     ],
     "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
+  },
+   {
+    "id": 155,
+    "title": "Classic Sun Glasses",
+    "description": "The Classic Sun Glasses offer a timeless design with a neutral frame and UV-protected lenses. These sunglasses are versatile and suitable for various occasions.",
+    "category": "sunglasses",
+    "price": 24.99,
+    "discountPercentage": 4.94,
+    "rating": 3.86,
+    "stock": 1,
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
+    "brand": "Fashion Shades",
+    "sku": "SUN-FAS-CLA-155",
+    "weight": 8,
+    "dimensions": {
+      "width": 19.87,
+      "height": 16.73,
+      "depth": 11.07
+    },
+    "warrantyInformation": "6 months warranty",
+    "shippingInformation": "Ships in 1 month",
+    "availabilityStatus": "Low Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Logan Lee",
+        "reviewerEmail": "logan.lee@x.dummyjson.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Very dissatisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Jack Ward",
+        "reviewerEmail": "jack.ward@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Julian James",
+        "reviewerEmail": "julian.james@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "90 days return policy",
+    "minimumOrderQuantity": 18,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "5771263118885",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/1.webp",
+      "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/2.webp",
+      "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/thumbnail.webp"
+  },
+  {
+    "id": 156,
+    "title": "Green and Black Glasses",
+    "description": "The Green and Black Glasses feature a bold combination of green and black colors, adding a touch of vibrancy to your eyewear collection. They are both stylish and eye-catching.",
+    "category": "sunglasses",
+    "price": 34.99,
+    "discountPercentage": 1.01,
+    "rating": 4.55,
+    "stock": 24,
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
+    "brand": "Fashion Shades",
+    "sku": "SUN-FAS-GRE-156",
+    "weight": 7,
+    "dimensions": {
+      "width": 26.13,
+      "height": 9.8,
+      "depth": 25.94
+    },
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships overnight",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Waste of money!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Ava Taylor",
+        "reviewerEmail": "ava.taylor@x.dummyjson.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Disappointing product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Owen Sullivan",
+        "reviewerEmail": "owen.sullivan@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Victoria McDonald",
+        "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 15,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "0635466237296",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/1.webp",
+      "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/2.webp",
+      "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/thumbnail.webp"
   }
 ]

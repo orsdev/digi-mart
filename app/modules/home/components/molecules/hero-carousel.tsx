@@ -45,7 +45,7 @@ export const HeroCarousel = ({ products }: HeroCarouselProps) => {
                   </span>
                 </div>
 
-                <h1 className="font-semibold text-dark text-xl md:text-3xl mb-3">
+                <h1 className="font-semibold text-xl md:text-3xl mb-3">
                   <span>{product.title}</span>
                 </h1>
 

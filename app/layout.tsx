@@ -1,15 +1,9 @@
-import type { Metadata } from "next";
 import { Toaster } from "react-hot-toast";
+import { ROBOTO_CLASS } from "./font";
+import { TopMarquee } from "./core/shared/components/atoms";
+import { Footer, Navbar } from "./core/shared/components/molecules";
 
 import "./globals.css";
-import { ROBOTO_CLASS } from "./font";
-import { Navbar, TopMarquee } from "./core/shared/components/atoms";
-
-export const metadata: Metadata = {
-  title: "Digi Mart – Your One-Stop Shop for Fashion, Tech, and More!",
-  description:
-    "Discover the latest trends in clothing, electronics, and footwear at Digi Mart! Enjoy fast shipping, great deals, and premium quality. Shop now for the best prices!",
-};
 
 export default function RootLayout({
   children,
@@ -22,6 +16,7 @@ export default function RootLayout({
         <TopMarquee />
         <Navbar />
         {children}
+        <Footer />
         <Toaster
           toastOptions={{
             duration: 6000,

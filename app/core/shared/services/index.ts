@@ -1,2 +1,1 @@
-export * from "./featured.service";
-export * from "./new-arrivals.service";
+export * from "./products.service";

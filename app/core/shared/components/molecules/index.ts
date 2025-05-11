@@ -5,3 +5,4 @@ export * from "./footer";
 export * from "./cart-sidebar";
 export * from "./custom-breadcrumb";
 export * from "./preview-image-modal";
+export * from "./pagination";

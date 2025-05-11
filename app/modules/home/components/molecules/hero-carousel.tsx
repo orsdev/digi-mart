@@ -52,7 +52,7 @@ export const HeroCarousel = ({ products }: HeroCarouselProps) => {
                 <p className="line-clamp-3">{product.description}</p>
 
                 <Link
-                  href={`/products/${product.id}`}
+                  href={`/shop/${product.id}`}
                   className="inline-flex font-medium text-white rounded-md bg-tertiary py-3 px-9 ease-out duration-200 hover:bg-tertiary/80 mt-10"
                 >
                   Shop Now

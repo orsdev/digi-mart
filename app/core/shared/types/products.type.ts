@@ -43,3 +43,15 @@ export interface Meta {
   barcode: string;
   qrCode: string;
 }
+
+export interface IPagination {
+  page_count: number;
+  current_page: number;
+  total_count: number;
+  per_page: number;
+}
+
+export interface IPaginatedProduct {
+  products: IProduct[];
+  pagination: IPagination;
+}

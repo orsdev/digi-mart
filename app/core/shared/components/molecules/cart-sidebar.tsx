@@ -4,30 +4,23 @@ import { useCartStore } from "@/app/modules/cart/store";
 import { ShoppingCart } from "@/app/modules/cart/utils";
 import { CircleX } from "lucide-react";
 import Link from "next/link";
-import { useEffect } from "react";
+import { useRef } from "react";
 import { cn, formatCurrency } from "../../utils";
 import { CartEmpty, CartSidebarItem } from "../atoms";
+import useOnClickOutside from "../../hooks/use-on-click-outside";
 
 export const CartSidebar = () => {
   const { isCartOpen, cartItems, toggleCart } = useCartStore((state) => state);
+  const containerRef = useRef<HTMLDivElement | null>(null);
+
+  useOnClickOutside(containerRef, () => {
+    if (isCartOpen) {
+      toggleCart();
+    }
+  });
 
   const totalPrice = ShoppingCart.calculateTotal(cartItems);
   const isCartEmpty = cartItems?.length <= 0;
-
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent): void {
-      if (!(event.target as Element).closest(".modal-content")) {
-        toggleCart();
-      }
-    }
-    if (isCartOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
-    }
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [isCartOpen, toggleCart]);
 
   return (
     <div
@@ -36,7 +29,10 @@ export const CartSidebar = () => {
       }`}
     >
       <div className="flex items-center justify-end">
-        <div className="w-full max-w-[500px] shadow-1 bg-white px-4 sm:px-7.5 lg:px-11 relative modal-content">
+        <div
+          ref={containerRef}
+          className="w-full max-w-[500px] shadow-1 bg-white px-4 sm:px-7.5 lg:px-11 relative modal-content"
+        >
           <div className="sticky top-0 bg-white flex items-center justify-between pb-7 pt-4 sm:pt-7.5 lg:pt-11 border-b border-gray-3 mb-7.5">
             <h2 className="font-medium text-dark text-lg sm:text-2xl">
               Cart View

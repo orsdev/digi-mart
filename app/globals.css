@@ -125,6 +125,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -141,10 +142,32 @@
 
 .common-carousel .swiper-button-next,
 .common-carousel .swiper-button-prev {
-  @apply !static h-9 w-9 rounded-lg bg-white  border border-gray-300 m-0 ease-out duration-200 hover:bg-main hover:text-white hover:border-main text-main;
+  @apply !static h-9 w-9 rounded-lg bg-white border border-gray-300 m-0 ease-out duration-200 hover:bg-main hover:text-white hover:border-main text-main;
 }
 
 .common-carousel .swiper-button-next svg,
 .common-carousel .swiper-button-prev svg {
   @apply w-auto h-auto;
+}
+
+.react-paginate {
+  @apply relative flex flex-wrap items-center justify-start sm:justify-center gap-y-1 gap-x-[2px] sm:gap-1 select-none;
+  list-style: none;
+
+  .page_link {
+    @apply px-[5px] py-[5px] min-w-[32px] min-h-[32px] flex justify-center items-center rounded-sm bg-white text-[12px] sm:text-sm cursor-pointer;
+  }
+
+  .selected .page_link {
+    @apply flex items-center justify-center w-[3px] h-[30px] bg-main text-white;
+  }
+
+  .page_item {
+    @apply relative text-[#667085] flex;
+
+    &.page_next,
+    &.page_prev {
+      @apply flex;
+    }
+  }
 }

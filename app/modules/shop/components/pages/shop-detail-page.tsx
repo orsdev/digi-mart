@@ -1,8 +1,8 @@
 import { Newsletter } from "@/app/core/shared/components/molecules";
 import { ShopDetailContent, ShopDetailImage } from "../organisms";
-import { getSingleProduct } from "../../services";
 import { redirect } from "next/navigation";
 import { Skeleton } from "@/app/core/shared/components/atoms";
+import { getSingleProduct } from "@/app/core/shared/services";
 
 interface ShopDetailPageProps {
   id: string;

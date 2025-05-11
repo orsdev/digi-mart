@@ -44,3 +44,9 @@ yarn dev
 
 Once the server is running, open your browser and navigate to:
 http://localhost:3000 to view the app.
+
+## 🔗 Live Link
+
+You can view the live version of the project here:
+
+[https://digi-mart-ten.vercel.app/](https://digi-mart-ten.vercel.app/)

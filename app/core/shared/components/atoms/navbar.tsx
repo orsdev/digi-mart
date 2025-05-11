@@ -32,7 +32,7 @@ export const Navbar = () => {
   return (
     <nav
       className={`fixed left-0 top-8 w-full z-9999 bg-white transition-all ease-in-out duration-300 ${
-        stickyMenu && "shadow"
+        stickyMenu && "shadow top-[0px]"
       }`}
     >
       <div className="max-w-[1170px] mx-auto px-4 sm:px-7.5 xl:px-0">

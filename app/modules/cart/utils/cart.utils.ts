@@ -1,5 +1,5 @@
 import { IProduct } from "@/app/core/shared/types";
-import { ICart } from "../types/cart.type";
+import { ICart } from "../type/cart.type";
 import { getDiscountedPrice } from "@/app/core/shared/utils";
 
 type AddItemProps = {

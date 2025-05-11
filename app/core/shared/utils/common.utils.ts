@@ -1,10 +1,4 @@
-type FormatCurrencyOptions = {
-  locale?: string;
-  currency?: string;
-  minimumFractionDigits?: number;
-  maximumFractionDigits?: number;
-  amount: number;
-};
+import { FormatCurrencyOptions } from "../types";
 
 export const formatCurrency = ({
   amount,

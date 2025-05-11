@@ -5,15 +5,16 @@ import Link from "next/link";
 import { cn, formatCurrency } from "../../utils";
 import { SAIL_CLASS } from "@/app/font";
 import { NAV_MENU_DATA } from "../../constants";
+import { useCartStore } from "@/app/modules/cart/store";
+import { ShoppingCart } from "@/app/modules/cart/utils";
 
 export const Navbar = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [stickyMenu, setStickyMenu] = useState(false);
+  const { cartItems, toggleCart } = useCartStore((state) => state);
 
-  const product = [];
-  const totalPrice = 0;
-
-  const handleOpenCartModal = () => {};
+  const totalPrice = ShoppingCart.calculateTotal(cartItems);
+  const totalCartItems = cartItems?.length ?? 0;
 
   // Sticky menu
   const handleStickyMenu = () => {
@@ -72,7 +73,7 @@ export const Navbar = () => {
                 </Link>
 
                 <button
-                  onClick={handleOpenCartModal}
+                  onClick={toggleCart}
                   className="flex items-center gap-2.5 cursor-pointer"
                 >
                   <span className="inline-block relative">
@@ -81,7 +82,7 @@ export const Navbar = () => {
                       className="scale-[0.8] stroke-main"
                     />
                     <span className="flex items-center justify-center font-medium text-xs absolute -right-2 -top-2.5 bg-main w-4.5 h-4.5 rounded-full text-white">
-                      {product.length}
+                      {totalCartItems}
                     </span>
                   </span>
 

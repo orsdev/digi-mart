@@ -24,7 +24,7 @@ const MARQUEE_DATA = [
 export const TopMarquee = () => {
   return (
     <div className="bg-tertiary px-5 flex items-center justify-between h-8">
-      <Marquee pauseOnHover>
+      <Marquee pauseOnHover autoFill>
         {MARQUEE_DATA.map((item) => (
           <div key={item.id} className="text-white mx-14">
             {item.title}

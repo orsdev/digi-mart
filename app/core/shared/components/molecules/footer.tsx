@@ -1,9 +1,11 @@
+"use client";
+
 import { SAIL_CLASS } from "@/app/font";
 import Image from "next/image";
 
-export const Footer = () => {
-  const year = new Date().getFullYear();
+const year = new Date().getFullYear();
 
+export const Footer = () => {
   return (
     <footer className="overflow-hidden">
       <div className="py-5 xl:py-7.5 bg-tertiary/10">

@@ -17,23 +17,21 @@ export const Newsletter = () => {
             </div>
 
             <div className="max-w-[477px] w-full">
-              <form>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Enter your email"
-                    className="w-full bg-white border border-gray-300 outline-none rounded-md placeholder:text-dark-4 py-3 px-5"
-                  />
-                  <button
-                    type="submit"
-                    className="inline-flex justify-center py-3 px-7 text-white bg-foreground font-medium rounded-md ease-out duration-200 hover:bg-gray-700 cursor-pointer"
-                  >
-                    Subscribe
-                  </button>
-                </div>
-              </form>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  className="w-full bg-white border border-gray-300 outline-none rounded-md  py-3 px-5"
+                />
+                <button
+                  type="button"
+                  className="inline-flex justify-center py-3 px-7 text-white bg-foreground font-medium rounded-md ease-out duration-200 hover:bg-gray-700 cursor-pointer"
+                >
+                  Subscribe
+                </button>
+              </div>
             </div>
           </div>
         </div>

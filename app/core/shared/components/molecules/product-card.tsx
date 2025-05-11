@@ -6,6 +6,7 @@ import { IProduct } from "../../types";
 import { useCartStore } from "@/app/modules/cart/store";
 import { Skeleton, StarRating } from "../atoms";
 import { formatCurrency, getDiscountedPrice } from "../../utils";
+import toast from "react-hot-toast";
 
 interface ProductCardProps {
   product: IProduct;
@@ -16,6 +17,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
 
   const handleAddToCart = () => {
     addItemToCart(product);
+    toast.success("Product added to cart");
   };
 
   const discountedPrice = getDiscountedPrice(
@@ -35,7 +37,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
           priority={false}
         />
 
-        <div className="absolute left-0 bottom-0 translate-y-full w-full flex items-center justify-center gap-2.5 pb-5 ease-linear duration-200 group-hover:translate-y-0">
+        <div className="absolute left-0 bottom-0 sm:translate-y-full w-full flex items-center justify-center gap-2.5 pb-5 ease-linear duration-200 sm:group-hover:translate-y-0">
           <button
             onClick={() => handleAddToCart()}
             className="inline-flex font-medium text-sm py-[7px] px-5 rounded-[5px] bg-main text-white ease-out duration-200 hover:bg-main-light"

@@ -13,10 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ROBOTO_CLASS} antialiased`}>
+      <body className={`${ROBOTO_CLASS} antialiased flex flex-col`}>
         <TopMarquee />
         <Header />
-        {children}
+        <div className="flex-1 min-h-dvh">{children}</div>
         <Footer />
         <Toaster
           toastOptions={{

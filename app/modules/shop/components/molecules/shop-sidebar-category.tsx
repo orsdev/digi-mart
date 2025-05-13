@@ -39,9 +39,10 @@ export const ShopSidebarCategory = ({
       <button
         onClick={handleToggleSidebar}
         aria-label="button for product sidebar toggle"
-        className={
-          "xl:hidden absolute -right-12.5 sm:-right-8 flex items-center justify-center w-8 h-8 rounded-md bg-white shadow-sm top-[25vh]"
-        }
+        className={cn(
+          "xl:hidden absolute -right-12.5 sm:-right-8 flex items-center justify-center w-8 h-8 rounded-md bg-white shadow-sm top-[25vh]",
+          { hidden: openSidebar },
+        )}
       >
         <ArrowLeftRight size={32} className="scale-[0.6] stroke-main" />
       </button>

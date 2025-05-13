@@ -19,7 +19,7 @@ export const ShopProductsGrid = async ({
   const { products: allProducts, pagination } = products.data ?? {};
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-6 mx-auto">
       <ShopProductListing
         serverPagination={pagination}
         serverProducts={allProducts}
@@ -29,7 +29,7 @@ export const ShopProductsGrid = async ({
 };
 
 export const ShopProductsGridSkeleton = () => (
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-6">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-6 mx-auto">
     {[...Array(12)].fill("prod-ske").map((_, i) => {
       const key = _ + i;
 
